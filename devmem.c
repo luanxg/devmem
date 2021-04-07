@@ -13,7 +13,7 @@ static void devmem(int argc, char **argv)
 	/* check args */
 	if (argc < 2) 
     {
-		rt_kprintf("\nUsage:\t%s devmem address [type [data]]\n"
+		rt_kprintf("\nUsage:\t%s address [type [data]]\n"
                    "\taddress : memory address to act upon\n"
                    "\ttype    : access operation type : [b]yte, [h]alfword, [w]ord\n"
                    "\tdata    : data to be written\n\n", argv[0]);
